@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f7f9fc, #dbe2ef);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+.game-container {
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    border-bottom: 1px solid #ccc;
+}
+
+.top-bar .item {
+    margin: 0 5px;
+}
+
+.game-area {
+    width: 100%;
+    height: calc(100% - 40px);
+    position: relative;
+    background-color: #e8f4fa;
+}
+
+
+.food1 {
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.food2 {
+    width: 12px;
+    height: 12px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.obstacle {
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+}
+

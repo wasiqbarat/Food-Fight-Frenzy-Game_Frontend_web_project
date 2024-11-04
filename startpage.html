@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+    <link rel="stylesheet" href="style/startpage.css">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="level-label">Level:</div>
+    <div class="level-options">
+        <input type="radio" id="level1" name="level" value="1" checked>
+        <label for="level1">1</label>
+        <input type="radio" id="level2" name="level" value="2">
+        <label for="level2">2</label>
+    </div>
+    
+    <div id="highscore" class="score">High Score:<br>...</div>
+    
+    <button class="start-button" onclick="startGame()">Start</button>
+</div>
+
+<script src="js/startpage.js"> </script>
+
+</body>
+</html>
