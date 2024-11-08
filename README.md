@@ -1,5 +1,4 @@
-<h1>Food Fight Frenzy Game</h1>
-<b>HTML + CSS + JavaScript</b>
+<h1>Food Fight Frenzy Game, A simple game using JavaScript+HTML+CSS</h1>
 <div>
   <h2>Start Page</h2>
   
